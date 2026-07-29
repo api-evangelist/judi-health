@@ -1,23 +1,84 @@
 aid: judi-health
 name: Judi Health
-description: Judi Health is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Judi Health (formerly Capital Rx) is a healthcare technology company delivering unified
+  pharmacy and medical benefit administration. Its platform, Judi, is a modern claims and
+  benefits processing system (a Core Administrative Processing System / CAPS) that self-funded
+  employers, unions, health plans, third-party administrators (TPAs), brokers, and health
+  systems use to run transparent, pass-through pharmacy benefit management (Judi Rx),
+  integrated health benefit administration (Judi Care), care navigation, level-funded
+  pharmacy benefits, a Medicare prescription payment plan, and white-label discount cards.
+  Judi Cloud licenses the underlying platform to other administrators. In 2026 the company
+  rebranded from Capital Rx to Judi Health following a $400M funding round to accelerate its
+  AI-powered health benefits platform, and its PBM business surpassed five million contracted
+  lives. Judi Health does not currently publish a public developer API, SDK, or API reference;
+  this profile captures the company identity, web properties, and security/trust posture.
 url: https://raw.githubusercontent.com/api-evangelist/judi-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/689c6d04eb7c3dec35bc6b3d/693c319a7ec6e63c1220f04d_Judi-Health_Gradient.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-former-name: Capital Rx
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Pharmacy Benefits
+- PBM
+- Health Benefits
+- Benefits Administration
+- Health Technology
+- Medicare
+- Insurance
 apis: []
+common:
+- type: VulnerabilityDisclosure
+  url: security/judi-health-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.judi.health/security
+- type: DomainSecurity
+  url: security/judi-health-domain-security.yml
+- type: TrustCenter
+  url: security/judi-health-trust-center.yml
+- type: Website
+  url: https://www.judi.health/
+- type: Blog
+  url: https://www.judi.health/insights
+- type: Support
+  url: https://www.judi.health/contact
+- type: GitHubOrganization
+  url: https://github.com/capitalrx
+- type: TermsOfService
+  url: https://www.judi.health/legal/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.judi.health/legal/privacy-policy
+- type: Compliance
+  url: https://www.judi.health/security
+- type: LinkedIn
+  url: https://www.linkedin.com/company/judi-health/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

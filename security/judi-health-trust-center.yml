@@ -1,0 +1,25 @@
+generated: '2026-07-19'
+method: searched
+source: https://trust.judi.health/
+url: https://trust.judi.health/
+platform: Vanta Trust Center
+certifications:
+- NIST 800-53
+frameworks:
+- FISMA (NIST 800-53 security controls)
+notes: >-
+  Judi Health operates a public Vanta-hosted Trust Center at https://trust.judi.health/.
+  The security page (https://www.judi.health/security) states the security program follows
+  the NIST 800-53 security controls for information systems and is "Built on FISMA NIST
+  800-53 framework." The Trust Center is a client-rendered application; specific attestations
+  it may list (e.g. SOC 2, HITRUST) were not machine-extractable from the page HTML and are
+  not asserted here to avoid fabrication.
+evidence:
+- source: https://www.judi.health/security
+  keywords:
+  - NIST 800-53
+  - FISMA
+- source: https://trust.judi.health/
+  keywords:
+  - trust center
+  - Vanta
